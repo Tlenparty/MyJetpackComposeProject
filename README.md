@@ -1,19 +1,19 @@
 # MyJetpackComposeProject
 
-Небольшое Android-приложение на Jetpack Compose: карточка профиля («визитка»)
-с круглой аватаркой в рамке, разделителем и именем. Проект для практики базовых
-компонентов Compose — `Surface`, `Card`, `Column`, `Image`, темы Material.
+A small Android app built with Jetpack Compose: a profile card (a "business card")
+with a round avatar in a frame, a divider, and a name. A project for practicing basic
+Compose components: `Surface`, `Card`, `Column`, `Image`, and Material themes.
 
-## Стек
+## Tech stack
 
-| Область | Технологии                              |
-|---------|-----------------------------------------|
-| Язык    | Kotlin 1.5                              |
-| UI      | Jetpack Compose 1.1, Material           |
+| Area     | Technologies                            |
+|----------|-----------------------------------------|
+| Language | Kotlin 1.5                              |
+| UI       | Jetpack Compose 1.1, Material           |
 
-## Сборка
+## Build
 
-Требуется JDK 17 и Android SDK 32.
+Requires JDK 17 and Android SDK 32.
 
 ```bash
 ./gradlew assembleDebug
